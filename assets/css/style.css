@@ -1,0 +1,122 @@
+body {
+        margin: 0px;
+      }
+      .container {
+        margin: 20px;
+        background-color: black;
+        width: 520px;
+
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+        cursor: pointer;
+      }
+      .left {
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 50%;
+        overflow: hidden;
+        flex-shrink: 0;
+      }
+      .left img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+      .right {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex: 1;
+        min-width: 0;
+      }
+      .box1 {
+        display: flex;
+        flex-direction: column;
+        color: white;
+      }
+      .heading {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        justify-content: space-between;
+      }
+      .heading-left {
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+      }
+      .heading-right {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+      }
+      .right-box:hover {
+        background-color: aliceblue;
+        border-radius: 70%;
+        fill: blue;
+      }
+      .img-container {
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        width: 100%;
+        max-width: 450px;
+        height: 200px;
+        overflow: hidden;
+      }
+      .img-container img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+      .box2 {
+        color: gray;
+      }
+      .box3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: gray;
+      }
+      svg {
+        height: 15px;
+        width: 15px;
+        fill: blue;
+      }
+      .right-box {
+        fill: gray;
+      }
+      .userid {
+        color: gray;
+      }
+      .list-items {
+        color: white;
+        padding-left: 20px;
+        margin: 0;
+      }
+      .box3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: gray;
+        margin-top: 8px;
+      }
+      .box3 svg {
+        fill: gray;
+        height: 18px;
+        width: 18px;
+      }
+      .icon-box1 {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+      }
+      .icon-box2 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
